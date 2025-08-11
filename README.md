@@ -1,21 +1,56 @@
 # Spam-SMS-Detection
-This project implements a machine learning-based classifier to detect and classify SMS messages as Spam or Ham (non-spam). The goal is to automate spam filtering and improve communication safety.
+This project focuses on detecting and classifying SMS messages as Spam or Ham (non-spam) using Natural Language Processing (NLP) and Machine Learning techniques.
+It applies text preprocessing, feature extraction, and supervised learning algorithms to build a robust spam classifier.
 
-Key Features:
+🚀 Features
+🧹 Data Preprocessing & Cleaning – Removed noise, punctuation, stopwords, and unnecessary characters
 
-Data Preprocessing & Text Cleaning – Removed noise, stopwords, and unnecessary characters
+✨ Feature Extraction – Used TF-IDF Vectorizer to convert text into numerical features
 
-Feature Extraction – Used TF-IDF Vectorizer to transform text into numerical features
+🤖 Model Training – Implemented Naive Bayes, Logistic Regression, and Support Vector Machine (SVM)
 
-Model Training – Implemented Naive Bayes, Logistic Regression, and SVM for classification
+📊 Data Visualization – Spam vs Ham distribution using Matplotlib & Seaborn
 
-Model Evaluation – Measured performance using Accuracy Score & Confusion Matrix
+📈 Model Evaluation – Accuracy Score & Confusion Matrix for performance measurement
 
-Custom Prediction Function – Allows classification of new/unseen SMS messages
+🔮 Custom Prediction Function – Predict spam status for new/unseen messages
 
-Data Visualization – Plotted spam vs ham distribution using Matplotlib & Seaborn
+🛠 Tech Stack
+Python
 
-Tech Stack:
-Python | Pandas | scikit-learn | NLTK | Matplotlib | Seaborn
+Pandas
 
-Outcome: Achieved high accuracy in spam classification and gained deeper understanding of text preprocessing, vectorization techniques, and model evaluation
+scikit-learn
+
+NLTK
+
+Matplotlib
+
+Seaborn
+
+📂 Dataset
+The dataset contains a collection of SMS messages labeled as ham (non-spam) or spam.
+Dataset: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
+
+📊 Model Workflow
+Load and explore dataset
+
+Clean and preprocess text data
+
+Convert text to numerical features using TF-IDF
+
+Train ML models (Naive Bayes, Logistic Regression, SVM)
+
+Evaluate models using accuracy and confusion matrix
+
+Predict new SMS messages
+
+📌 Output Example
+makefile
+Copy
+Edit
+Example SMS: "Congratulations! You've won a free iPhone. Click here to claim now!"
+Prediction: Spam 📩
+📈 Results
+Achieved high accuracy across all tested models with accuracy of 97%
+
