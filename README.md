@@ -3,6 +3,7 @@ This project focuses on detecting and classifying SMS messages as Spam or Ham (n
 It applies text preprocessing, feature extraction, and supervised learning algorithms to build a robust spam classifier.
 
 🚀 Features
+
 🧹 Data Preprocessing & Cleaning – Removed noise, punctuation, stopwords, and unnecessary characters
 
 ✨ Feature Extraction – Used TF-IDF Vectorizer to convert text into numerical features
