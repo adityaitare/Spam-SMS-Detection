@@ -16,20 +16,11 @@ It applies text preprocessing, feature extraction, and supervised learning algor
 🔮 Custom Prediction Function – Predict spam status for new/unseen messages
 
 🛠 Tech Stack
-Python
-
-Pandas
-
-scikit-learn
-
-NLTK
-
-Matplotlib
-
-Seaborn
+Python | Pandas | scikit-learn | NLTK  | Matplotlib | Seaborn
 
 📂 Dataset
 The dataset contains a collection of SMS messages labeled as ham (non-spam) or spam.
+
 Dataset: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
 
 📊 Model Workflow
@@ -46,11 +37,11 @@ Evaluate models using accuracy and confusion matrix
 Predict new SMS messages
 
 📌 Output Example
-makefile
-Copy
-Edit
+
 Example SMS: "Congratulations! You've won a free iPhone. Click here to claim now!"
+
 Prediction: Spam 📩
+
 📈 Results
 Achieved high accuracy across all tested models with accuracy of 97%
 
